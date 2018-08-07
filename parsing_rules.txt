@@ -1,0 +1,26 @@
+1=======================================================================================================================
+#link
+https://www.e1.ru/news/
+#rules
+contentType=html
+feedTag=article
+feedClass=e1-article e1-article_news
+linkAttr=href
+linkClass=e1-article__link e1-article__link_inline
+imgAttr=src
+imgClass=e1-article__img
+timeClass=e1-article__date-text
+headerClass=e1-article__tit
+2=======================================================================================================================
+#link
+https://www.vesti.ru/news/
+#rules
+contentType=html
+feedTag=div
+feedClass=b-item_list item
+linkAttr=href
+linkClass=b-item__pic-wrapper
+imgAttr=src
+imgClass=b-item__pic
+timeClass=b-item__time
+headerClass=b-item__title
